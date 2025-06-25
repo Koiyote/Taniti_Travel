@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Taniti_Travel/static/css/main.b0f13cd5.css",
-    "main.js": "/Taniti_Travel/static/js/main.ed05b26e.js",
+    "main.js": "/Taniti_Travel/static/js/main.45840823.js",
     "static/js/453.9cc08cb8.chunk.js": "/Taniti_Travel/static/js/453.9cc08cb8.chunk.js",
     "index.html": "/Taniti_Travel/index.html",
     "main.b0f13cd5.css.map": "/Taniti_Travel/static/css/main.b0f13cd5.css.map",
-    "main.ed05b26e.js.map": "/Taniti_Travel/static/js/main.ed05b26e.js.map",
+    "main.45840823.js.map": "/Taniti_Travel/static/js/main.45840823.js.map",
     "453.9cc08cb8.chunk.js.map": "/Taniti_Travel/static/js/453.9cc08cb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0f13cd5.css",
-    "static/js/main.ed05b26e.js"
+    "static/js/main.45840823.js"
   ]
 }
