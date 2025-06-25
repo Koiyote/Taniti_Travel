@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import About from './fragments/About';
+import Travel_Destination from './fragments/Travel_Destination';
+import Navbar from './fragments/Navbar';
+import FrontPage from './fragments/FrontPage';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
+  
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      
+
+  <div
+  className="container-fluid d-flex justify-content-center align-items-center position-relative"
+  style={{
+    backgroundImage: `url('beach-picture.png')`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+    flexDirection: 'column',
+    position: 'relative',
+    overflow: 'hidden',
+  }}
+>
+  <Navbar></Navbar>
+  <Routes>
+    <Route path="/" element={<FrontPage/>}/>
+    <Route path="/about" element={<About/>}/>
+    <Route path="/travel_destination" element={<Travel_Destination/>}/>  
+  </Routes> 
+  
+</div>
+
   );
 }
 
